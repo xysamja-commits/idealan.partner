@@ -191,7 +191,7 @@
 
    
    <div id="extraActions" style="margin-top: 30px;">
-  <a href="https://www.lfbuyer.com/zodiac/" target="_blank">
+  <a href="https://www.lfbuyer.com/hr/zodijak/" target="_blank">
     <button>🌐 Visit Our Website</button>
   </a>
   <a href="https://www.facebook.com/rio.lfbuyer/" target="_blank">
@@ -1157,7 +1157,7 @@ resultDiv.innerText = `${emoji} Tvoj dominantni astrološki znak je: ${topSign}.
 document.getElementById("whatsappShareBtn").onclick = () => {
   const topSign = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
   const message = `Moj dominantni astrološki znak je: ${topSign}! Saznaj svoj znak na našem kvizu 🔮`;
-  const url = "https://www.lfbuyer.com/hr/zodiac/";
+  const url = "https://www.lfbuyer.com/hr/zodijak/";
   const whatsappLink = `https://wa.me/?text=${encodeURIComponent(message + " " + url)}`;
   window.open(whatsappLink, "_blank");
 };
